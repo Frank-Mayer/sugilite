@@ -1,9 +1,9 @@
 <h1 align="center">
   <img
-    width="128px"
-    height="128px"
+    width="100px"
+    height="100px"
     alt="💎"
-    src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/favicon.svg"
+    src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/favicon.svg"
   />
   <br/>
   <p>sugilite</p>
@@ -15,13 +15,17 @@ This project is **work in progress**.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-## Memory
+## Memory management
+
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/map.svg" style="height: 100px;float:right;" />
 
 Thanks to the automatic memory management, it is easy to write a well-functioning program with Sugilite.
 
 If necessary, the management can be turned off for single variables. These self-managed variables are used as pointers and must be deleted manually.
 
 ## Function return values
+
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/dig.svg" style="height: 100px;float:right;" />
 
 There are several ways a function can return values.
 
@@ -31,10 +35,22 @@ The `yield` keyword can be used to specify or overwrite a return value of the cu
 
 ## Empty values and errors
 
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/trap.svg" style="height: 100px;float:right;" />
+
 To be able to have empty values, the built-in data type `option` is used. `option` can have a value or not.
 
 Errors are mapped with the built-in `result` data type. A `result` can contain a value or an error.
 
+Something like `null` doesn't exist.
+
+## Integrated tools
+
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/explorer.svg" style="height: 100px;float:right;" />
+
+- Compiler
+- Language Server
+- Syntax highlighting for [tree-sitter](https://github.com/tree-sitter/tree-sitter)
+
 ## Credits
 
-[Icon created by max.icons](https://www.flaticon.com/authors/maxicons)
+[Icons created by max.icons](https://www.flaticon.com/authors/maxicons)
