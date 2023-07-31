@@ -17,7 +17,7 @@ This project is **work in progress**.
 
 ## Memory management
 
-<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/map.svg" style="height: 100px;float:right;" />
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/map.svg" height="100" align="right" />
 
 Thanks to the automatic memory management, it is easy to write a well-functioning program with Sugilite.
 
@@ -25,7 +25,7 @@ If necessary, the management can be turned off for single variables. These self-
 
 ## Function return values
 
-<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/dig.svg" style="height: 100px;float:right;" />
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/dig.svg" height="100" align="right" />
 
 There are several ways a function can return values.
 
@@ -35,7 +35,7 @@ The `yield` keyword can be used to specify or overwrite a return value of the cu
 
 ## Empty values and errors
 
-<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/trap.svg" style="height: 100px;float:right;" />
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/trap.svg" height="100" align="right" />
 
 To be able to have empty values, the built-in data type `option` is used. `option` can have a value or not.
 
@@ -45,7 +45,7 @@ Something like `null` doesn't exist.
 
 ## Integrated tools
 
-<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/explorer.svg" style="height: 100px;float:right;" />
+<img src="https://raw.githubusercontent.com/Frank-Mayer/sugilite/main/img/explorer.svg" height="100" align="right" />
 
 - Compiler
 - Language Server
