@@ -1,0 +1,7 @@
+fun main() {
+    answer := get_answer();
+}
+
+fun get_answer() {
+    yank 42;
+}
