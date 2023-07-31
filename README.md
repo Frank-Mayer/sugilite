@@ -34,3 +34,7 @@ The `yield` keyword can be used to specify or overwrite a return value of the cu
 To be able to have empty values, the built-in data type `option` is used. `option` can have a value or not.
 
 Errors are mapped with the built-in `result` data type. A `result` can contain a value or an error.
+
+## Credits
+
+[Icon created by max.icons](https://www.flaticon.com/authors/maxicons)
